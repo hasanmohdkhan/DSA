@@ -1,6 +1,6 @@
 
 <h2>Selection sort </h2>
-______________________
+___
 * select largest item in array and save index
 * moved that largest item to last of array
 * swap item

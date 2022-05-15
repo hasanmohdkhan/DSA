@@ -1,5 +1,5 @@
 <h2>Bubble Sort </h2>
-_________________________
+___
 
 * traverse array from desc order
 * compare n with n+1 if greater than swap item
