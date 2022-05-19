@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/InsertionSort/InsertionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShellSort/ShellSort.iml" filepath="$PROJECT_DIR$/ShellSort/ShellSort.iml" />
     </modules>
   </component>
 </project>
