@@ -7,3 +7,17 @@ G
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 w
 G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
+R
+"ShellSort/src/shell/ShellSort.java,5\1\51fc08096314bd092e6600d6ce7547625663e731
+G
+Recursion/Recursion.iml,8\4\8468f5c37a6d9b408d6f5be795681705574e87e3
+w
+G.idea/sonarlint/issuestore/9/1/9123ccbbe62fa5f37b914963ac47a528ffb4a4ba,e\9\e90a7f6b4c54351d5e3de3cb2670ea344be4f3f2
+w
+G.idea/sonarlint/issuestore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,b\0\b04578cffb47b1e57970601a0cacef6081245859
+w
+G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
+Y
+)BubbleSort/src/BubbleSortApplication.java,e\4\e4b038fd84a05c20577172830861c313e5a2863f
+V
+&Recursion/src/recursion/Factorial.java,d\2\d2d779ddfc497beedc5d05700b1a3e4216a9f5eb

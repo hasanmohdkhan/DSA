@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class SelectionSortApplication {
 
     public static void main(String[] args) {
-        int[] data = {20, 35, -15, 1, -22, -1, 100, 3, 21, 10, 60, 12, 189, -6, -11, 90, 0};
+        int[] data = generateArrayWithRandomNumber(1000);
 
         long startTime = System.nanoTime();
 
@@ -39,8 +39,10 @@ public class SelectionSortApplication {
 
         long stopTime = System.nanoTime();
 
+        System.out.println("");
+
         for (int datum : data) {
-            System.out.print(" " + datum + ",");
+            System.out.println(" " + datum + ",");
         }
 
 
@@ -74,4 +76,20 @@ public class SelectionSortApplication {
     }
 
 
+    private static int[] generateArrayWithRandomNumber(int length) {
+        int[] arr = new int[length];
+        int max = 10000;
+        int min = 1;
+
+        for (int i = 0; i < length; i++) {
+            arr[i] = (int) (Math.random() * (max - min + 1) + min);
+        }
+        System.out.println("Unsorted Array:");
+        for (int j : arr) {
+            System.err.print(j+" ");
+        }
+
+        return arr;
+
+    }
 }

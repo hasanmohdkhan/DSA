@@ -2,26 +2,22 @@ package insertion;
 
 /**
  * The Insertion sort
- *
+ * <p>
  * - Assume that 0th position is sorted[in case of 1 element in array no need to do sorting/looping]
- *
+ * <p>
  * - We start with 1st position on loop and goes to last of array
- *
+ * <p>
  * - Then start new loop from unsorted array i.e. from firstUnsortedIndex to 0th position
  * - then replace value if i-1 is greater than ith position
- *
- *
- *
  */
 public class InsertionSortApplication {
-
 
     public static void main(String[] args) {
         int[] intArray = {20, 35, -15, 1, -22, -1, 100, 3, 21, 10, 60, 12, 189, -6, -11, 90, 0};
 
         //Assume that 0th position is sorted[in case of 1 element in array no need to do sorting/looping]
         for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
-           //backing up value in newElement
+            //backing up value in newElement
             int newElement = intArray[firstUnsortedIndex];
 
             // Declared here because we need it outside loop to replace value
