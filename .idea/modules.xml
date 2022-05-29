@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/InsertionSort/InsertionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/MergeSort/MergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeAlgo/PracticeAlgo.iml" filepath="$PROJECT_DIR$/PracticeAlgo/PracticeAlgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/SelectionSort/SelectionSort.iml" />
