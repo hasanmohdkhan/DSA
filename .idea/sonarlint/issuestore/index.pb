@@ -31,3 +31,15 @@ w
 G.idea/sonarlint/issuestore/8/4/8468f5c37a6d9b408d6f5be795681705574e87e3,0\1\01847358ae887843042cc70e6ac4ce2e5b2f8856
 S
 #Recursion/src/recursion/Parent.java,2\4\248b9983b7ac36c9b71f565787f16782575d8b73
+q
+APracticeAlgo/src/selectionsortpractice/SelectionSortPractice.java,8\9\890dc5b6b7acdab21837f06e81938da144d8a795
+a
+1PracticeAlgo/src/selectionsortpractice/Utils.java,2\f\2f8d07ceffec47878eb0b6a5028873d3519ca459
+_
+/SelectionSort/src/SelectionSortApplication.java,4\3\43ab8d172798c187376851f60ce8f1267fa9e733
+i
+9InsertionSort/src/insertion/InsertionSortApplication.java,a\e\ae5aebf609e050ed1d84e31da5139eb9f45cd9bb
+q
+APracticeAlgo/src/selectionsortpractice/InsertionSortPractice.java,3\1\315114da469659c710fe90a4aea2fdda83eda5cf
+Y
+)BubbleSort/src/BubbleSortApplication.java,e\4\e4b038fd84a05c20577172830861c313e5a2863f
