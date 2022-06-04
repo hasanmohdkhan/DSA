@@ -1,5 +1,7 @@
 package selectionsortpractice;
 
+import java.util.Arrays;
+
 /**
  * @Created: 26/05/2022
  * @author: hasan.khan
@@ -8,12 +10,15 @@ public class SelectionSortPractice {
 
     public static void main(String[] args) {
 
-        int worstCase10L = 1000000;
-        int[] arrayWithRandomNumber = Utils.generateArrayWithRandomNumber(worstCase10L);
+        int worstCase10L = 10;
+        int[] arrayWithRandomNumber = Utils.generateArrayWithRandomNumber(worstCase10L,1,10);
+        int[] copy = Arrays.copyOf(arrayWithRandomNumber, arrayWithRandomNumber.length);
         long startTime = System.currentTimeMillis();
         selectionSort(arrayWithRandomNumber);
         long endTime = System.currentTimeMillis();
         Utils.time(startTime,endTime);
+
+        selectionSortP1(copy);
     }
 
 
@@ -43,5 +48,26 @@ public class SelectionSortPractice {
         int temp = arr[smallIndex];
         arr[smallIndex] = arr[i];
         arr[i] = temp;
+    }
+
+
+    private static void selectionSortP1(int[] data) {
+
+        for (int i = 0; i < data.length; i++) {
+
+            int smallIndex= i;
+
+            for (int j = i+1; j < data.length; j++) {
+                if(data[j] < data[smallIndex]){
+                    smallIndex = j;
+
+                }
+                swap(data,i,smallIndex);
+            }
+
+        }
+
+        System.out.println("P2: "+ Arrays.toString(data));
+
     }
 }

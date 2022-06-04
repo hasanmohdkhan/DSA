@@ -251,6 +251,7 @@ public class Test {
             combineArrIndex++;
         }
 
+
         //   System.out.println("Combine: " + Arrays.toString(combineArray));
 
         // r: {1,5} and l : {7,3,1} // index 2
