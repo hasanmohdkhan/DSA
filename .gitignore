@@ -1,2 +1,5 @@
 /DSA.iml
 /.idea/
+*.class
+*.iml
+/out

@@ -43,13 +43,13 @@ public class MergeSortApplication {
         System.out.println("mid " + mid);
 
 
-         mergeSort(input, start, mid);
-         mergeSort(input, mid, end);
+        mergeSort(input, start, mid);
+        mergeSort(input, mid, end);
         mergeOptimized(input, start, mid, end);
 
         //merge1(input, start, mid, end);
-        int[] mergeSort = mergeSort(input);
-        System.out.println("Unoptimized: "+Arrays.toString(mergeSort));
+      //  int[] mergeSort = mergeSort(input);
+       // System.out.println("Unoptimized: " + Arrays.toString(mergeSort));
     }
 
     public static int[] mergeSort(int[] theArray) {
