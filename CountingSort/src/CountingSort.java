@@ -22,20 +22,18 @@ public class CountingSort {
             countingArray[k - 1]++;
         }
 
-        int[] test = new int[input.length];
-
         int j = 0;
         for (int i = 0; i < countingArray.length; i++) {
             int count = countingArray[i];
             while (count > 0) {
-                test[j] = i + 1;
+                input[j] = i + 1;
                 count--;
                 j++;
             }
 
         }
         System.out.print("my : ");
-        System.out.println(Arrays.toString(test));
+        System.out.println(Arrays.toString(input));
 
     }
 
